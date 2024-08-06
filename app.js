@@ -1,10 +1,15 @@
 import express from 'express';
 import ejsLayout from 'express-ejs-layouts';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import 'dotenv/config';
 import router from './server/routes/user-route.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 app.use(express.static('public'));
 
