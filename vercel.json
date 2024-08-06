@@ -7,7 +7,7 @@
   ],
   "routes": [
     {
-      "destination": "/"
+      "dest": "/"
     }
   ]
 }
