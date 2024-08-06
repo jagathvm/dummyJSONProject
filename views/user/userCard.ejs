@@ -1,0 +1,36 @@
+<main class="main-user-container">
+  <!-- User card container -->
+  <div class="user-card">
+    <!-- Container for the user's image -->
+    <div class="image-container">
+      <img src="<%= user.image %>" alt="User Photo" class="user-image" />
+    </div>
+
+    <!-- Container for user details -->
+    <div class="user-details">
+      <!-- User's full name -->
+      <h2 class="user-name"><%= user.firstName %> <%= user.lastName %></h2>
+
+      <!-- User's age -->
+      <p class="user-info">Age: <%= user.age %></p>
+
+      <!-- User's username -->
+      <p class="user-info">Username: <%= user.username %></p>
+
+      <!-- User's phone number -->
+      <p class="user-info">Phone: <%= user.phone %></p>
+
+      <!-- User's email address -->
+      <p class="user-info">Email: <%= user.email %></p>
+
+      <!-- User's birth date -->
+      <p class="user-info">Birth Date: <%= user.birthDate %></p>
+
+      <!-- User's gender with capitalized first letter -->
+      <p class="user-info">Gender: <%= capitalisation(user.gender) %></p>
+
+      <!-- User's role with capitalized first letter -->
+      <p class="user-info">Role: <%= capitalisation(user.role) %></p>
+    </div>
+  </div>
+</main>
