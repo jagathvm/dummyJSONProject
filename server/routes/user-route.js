@@ -16,7 +16,7 @@ const router = Router();
  * @param {string} path - Express path.
  * @param {function} middleware - Express middleware.
  */
-router.get('/home', getHome);
+router.get('/', getHome);
 
 /**
  * Route serving the list of all users.
