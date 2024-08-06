@@ -22,7 +22,7 @@ This project is a simple Node.js application that fetches and displays user data
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd your-repository-name
+   cd dummyJSONProject
    ```
 
 3. **Install Dependencies:**
