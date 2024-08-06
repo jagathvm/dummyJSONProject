@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8" />
+
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Document title -->
+    <title>DummyJSON</title>
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <!-- Favicon for the website -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://assets.dummyjson.com/public/fav.png"
+    />
+  </head>
+  <body>
+    <!-- Header section containing the site title and navigation -->
+    <header>
+      <a href="/home" class="no-style-link">
+        <h1>DummyJSON</h1>
+      </a>
+    </header>
+
+    <!-- Navigation breadcrumb to show the current page location -->
+    <nav class="breadcrumb-container">
+      <a href="/home">Home</a> &gt; <%- breadcrumb %>
+    </nav>
+
+    <!-- Main content area where page-specific content will be injected -->
+    <main><%- body %></main>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+      <p>&copy; 2024 DummyJSON Project. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<main>
+  <div class="custom-card-container">
+    <!-- Card for All Users -->
+    <div class="custom-card">
+      <form id="all-user-form">
+        <h3>All Users</h3>
+        <button type="submit">View All Users</button>
+      </form>
+    </div>
+
+    <!-- Card for Single User -->
+    <div class="custom-card">
+      <form id="user-form">
+        <h3>Find User by ID</h3>
+        <input type="number" id="custom-user-id" placeholder="Enter User ID" />
+        <button type="submit">Find User</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+<!-- Modal Structure -->
+<div id="error-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <p id="modal-message"></p>
+  </div>
+</div>
+
+<script src="/js/usersSubmit.js"></script>
