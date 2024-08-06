@@ -1,11 +1,11 @@
 {
   "name": "dummyjson-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js app that fetches and displays user data from the DummyJSON API. Features include viewing all users, details of a single user by ID, and a responsive design. Easily adapt the template to other DummyJSON endpoints like products or carts.",
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
