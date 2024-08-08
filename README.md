@@ -16,7 +16,7 @@ This project is a simple Node.js application that fetches and displays user data
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/jagathvm/dummyJSONProject.git
    ```
 
 2. **Navigate to the Project Directory:**
