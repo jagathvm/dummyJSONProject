@@ -5,7 +5,7 @@
  */
 export const capitalisation = (data) => {
   const firstLetter = data.charAt(0).toUpperCase();
-  const remainingLetters = data.slice(1);
+  const remainingLetters = data.slice(1).toLowerCase();
   const capitalisedWord = firstLetter + remainingLetters;
   return capitalisedWord;
 };
